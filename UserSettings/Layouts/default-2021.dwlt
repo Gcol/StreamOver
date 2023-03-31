@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 41
+  controlID: 111
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 47
+  controlID: 19
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 48
+  controlID: 20
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -298,10 +298,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 295.2
-    y: 80.8
-    width: 871.6
-    height: 398.2
+    x: -1552
+    y: 81
+    width: 1092
+    height: 530
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -310,15 +310,49 @@ MonoBehaviour:
   m_ViewTransforms:
     m_KeySerializationHelper:
     - {fileID: -1298323851280459798, guid: 86c58390de09675479a3bc7f6759e561, type: 2}
+    - {fileID: 2049195673305585075, guid: 4e2031125b2125d42b6f35fd4c37fcd5, type: 2}
+    - {fileID: 641036199965788049, guid: be7891e3f95cc9d4a9382a7d9cbfc0bc, type: 2}
     m_ValueSerializationHelper:
-    - e00: 1
+    - e00: 0.75054944
       e01: 0
       e02: 0
-      e03: 0
+      e03: -15.010986
       e10: 0
-      e11: 1
+      e11: 0.75054944
       e12: 0
-      e13: -0.7999878
+      e13: 122.78186
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.61110526
+      e01: 0
+      e02: 0
+      e03: 4.544739
+      e10: 0
+      e11: 0.61110526
+      e12: 0
+      e13: 200.04501
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.75054944
+      e01: 0
+      e02: 0
+      e03: -15.010986
+      e10: 0
+      e11: 0.75054944
+      e12: 0
+      e13: 122.78186
       e20: 0
       e21: 0
       e22: 1
@@ -374,7 +408,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -9964
+  m_LastSelectedObjectID: 22538
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -417,22 +451,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Source
+    - Assets/Script
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Source
+  - Assets/Script
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\colle\Desktop\Projet\StreamOver
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f4770000
-    m_LastClickedID: 30708
-    m_ExpandedIDs: 00000000ec77000000ca9a3b
+    m_SelectedIDs: f25e0000
+    m_LastClickedID: 24306
+    m_ExpandedIDs: 00000000e45e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -448,7 +482,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 5}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -460,7 +494,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000e45e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -487,7 +521,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -590,9 +624,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 76d7ffff1ed9ffff
+      m_SelectedIDs: c2f7ffff
+      m_LastClickedID: -2110
+      m_ExpandedIDs: c4f7ffff9a5c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -875,9 +909,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 3.147719, y: -3.7318115, z: -3.422392}
+    m_Target: {x: -18.657402, y: 26.966888, z: -21.805481}
     speed: 2
-    m_Value: {x: 3.147719, y: -3.7318115, z: -3.422392}
+    m_Value: {x: -18.657402, y: 26.966888, z: -21.805481}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -919,25 +953,25 @@ MonoBehaviour:
         m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 1, y: 1}
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.47569, y: -0.06847909, z: 0.03717924, w: 0.8761556}
+    m_Target: {x: -0.17622133, y: 0.18250924, z: -0.03326956, w: -0.9667124}
     speed: 2
-    m_Value: {x: 0.47700343, y: -0.06842321, z: 0.037281893, w: 0.87544054}
+    m_Value: {x: -0.17617093, y: 0.1839588, z: -0.0335338, w: -0.96643597}
   m_Size:
-    m_Target: 39.298897
+    m_Target: 45.887234
     speed: 2
-    m_Value: 37.6066
+    m_Value: 43.91123
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1
-    m_SpeedNormalized: 0.5
+    m_Speed: 1.06047
+    m_SpeedNormalized: 0.53
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -948,7 +982,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+  m_LastSceneViewRotation: {x: -0.07782283, y: 0.6899819, z: -0.075025275, w: -0.7157095}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -1017,7 +1051,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
